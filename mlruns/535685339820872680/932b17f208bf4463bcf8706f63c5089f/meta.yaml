@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/535685339820872680/932b17f208bf4463bcf8706f63c5089f/artifacts
+end_time: 1751369039392
+entry_point_name: ''
+experiment_id: '535685339820872680'
+lifecycle_stage: active
+run_id: 932b17f208bf4463bcf8706f63c5089f
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751369035498
+status: 3
+tags: []
+user_id: Minfy

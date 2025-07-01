@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/0ce76f8843a64c9c89af5056708eb2e8/artifacts
+end_time: 1751362431671
+entry_point_name: ''
+experiment_id: '540968067274961146'
+lifecycle_stage: active
+run_id: 0ce76f8843a64c9c89af5056708eb2e8
+run_name: Best Overall Model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751362427174
+status: 3
+tags: []
+user_id: Minfy

@@ -1,0 +1,14 @@
+digest: d1c4fed0
+name: dataset
+profile: '{"num_rows": 5000, "num_elements": 55000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age", "required": true},
+  {"type": "double", "name": "Experience", "required": true}, {"type": "double", "name":
+  "Income", "required": true}, {"type": "double", "name": "Family", "required": true},
+  {"type": "double", "name": "CCAvg", "required": true}, {"type": "long", "name":
+  "Education", "required": true}, {"type": "double", "name": "Mortgage", "required":
+  true}, {"type": "long", "name": "Securities Account", "required": true}, {"type":
+  "long", "name": "CD Account", "required": true}, {"type": "long", "name": "Online",
+  "required": true}, {"type": "long", "name": "CreditCard", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Minfy", "mlflow.source.name": "main.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "01e36511698db6aad0dd9eda97bc4b33f11da2a4"}}'
+source_type: code

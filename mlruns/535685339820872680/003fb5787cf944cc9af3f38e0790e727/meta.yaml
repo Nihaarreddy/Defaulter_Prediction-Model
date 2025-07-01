@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/535685339820872680/003fb5787cf944cc9af3f38e0790e727/artifacts
+end_time: 1751369042524
+entry_point_name: ''
+experiment_id: '535685339820872680'
+lifecycle_stage: active
+run_id: 003fb5787cf944cc9af3f38e0790e727
+run_name: All Model Comparisons
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751369030864
+status: 3
+tags: []
+user_id: Minfy

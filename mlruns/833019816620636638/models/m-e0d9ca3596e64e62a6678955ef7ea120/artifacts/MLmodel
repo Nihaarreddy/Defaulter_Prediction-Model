@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/833019816620636638/models/m-e0d9ca3596e64e62a6678955ef7ea120/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.1
+model_id: m-e0d9ca3596e64e62a6678955ef7ea120
+model_size_bytes: 1022
+model_uuid: m-e0d9ca3596e64e62a6678955ef7ea120
+prompts: null
+run_id: fc92c448867c4327bec9bb68fee8b24c
+utc_time_created: '2025-07-01 10:07:06.634290'

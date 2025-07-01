@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/632e8f5949094747a26dbfed3bbd0740/artifacts
+end_time: 1751362970872
+entry_point_name: ''
+experiment_id: '540968067274961146'
+lifecycle_stage: active
+run_id: 632e8f5949094747a26dbfed3bbd0740
+run_name: upset-rook-928
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751362957791
+status: 3
+tags: []
+user_id: Minfy

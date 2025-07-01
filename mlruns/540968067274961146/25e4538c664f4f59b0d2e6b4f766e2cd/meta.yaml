@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/25e4538c664f4f59b0d2e6b4f766e2cd/artifacts
+end_time: 1751363639615
+entry_point_name: ''
+experiment_id: '540968067274961146'
+lifecycle_stage: active
+run_id: 25e4538c664f4f59b0d2e6b4f766e2cd
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751363639565
+status: 4
+tags: []
+user_id: Minfy

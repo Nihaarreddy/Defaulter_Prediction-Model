@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/833019816620636638
+creation_time: 1751364109056
+experiment_id: '833019816620636638'
+last_update_time: 1751364109056
+lifecycle_stage: active
+name: Defaulter_Classification_Model_With_MLFlow

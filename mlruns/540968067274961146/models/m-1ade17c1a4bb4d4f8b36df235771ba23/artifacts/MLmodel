@@ -1,0 +1,35 @@
+artifact_path: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/models/m-1ade17c1a4bb4d4f8b36df235771ba23/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.1
+model_id: m-1ade17c1a4bb4d4f8b36df235771ba23
+model_size_bytes: 2739
+model_uuid: m-1ade17c1a4bb4d4f8b36df235771ba23
+prompts: null
+run_id: 3512f53e09114e43b46a9ad409eab85b
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "double",
+    "name": "Experience", "required": true}, {"type": "double", "name": "Income",
+    "required": true}, {"type": "double", "name": "Family", "required": true}, {"type":
+    "double", "name": "CCAvg", "required": true}, {"type": "long", "name": "Education",
+    "required": true}, {"type": "double", "name": "Mortgage", "required": true}, {"type":
+    "long", "name": "Securities Account", "required": true}, {"type": "long", "name":
+    "CD Account", "required": true}, {"type": "long", "name": "Online", "required":
+    true}, {"type": "long", "name": "CreditCard", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-01 09:55:32.068427'

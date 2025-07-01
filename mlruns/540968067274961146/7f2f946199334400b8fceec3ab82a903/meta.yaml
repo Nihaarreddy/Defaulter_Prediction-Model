@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/7f2f946199334400b8fceec3ab82a903/artifacts
+end_time: 1751362442232
+entry_point_name: ''
+experiment_id: '540968067274961146'
+lifecycle_stage: active
+run_id: 7f2f946199334400b8fceec3ab82a903
+run_name: bouncy-duck-981
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751362431708
+status: 3
+tags: []
+user_id: Minfy

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Minfy/Downloads/Risk%20Classification%20System/Risk%20Classification%20System/Building%20model/mlruns/540968067274961146/models/m-8f16624f3a0149e29a798c7af2c617b4/artifacts
+creation_timestamp: 1751362449739
+experiment_id: '540968067274961146'
+last_updated_timestamp: 1751362453904
+model_id: m-8f16624f3a0149e29a798c7af2c617b4
+model_type: null
+name: best_estimator
+source_run_id: a891d9894ce741e7b9a2d1791594668d
+status: 2
+status_message: null
