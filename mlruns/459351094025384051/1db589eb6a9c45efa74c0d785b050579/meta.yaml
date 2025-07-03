@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/459351094025384051/1db589eb6a9c45efa74c0d785b050579/artifacts
+end_time: 1751452803618
+entry_point_name: ''
+experiment_id: '459351094025384051'
+lifecycle_stage: active
+run_id: 1db589eb6a9c45efa74c0d785b050579
+run_name: Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751452781890
+status: 4
+tags: []
+user_id: Minfy

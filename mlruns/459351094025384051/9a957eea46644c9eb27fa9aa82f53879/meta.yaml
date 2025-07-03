@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/459351094025384051/9a957eea46644c9eb27fa9aa82f53879/artifacts
+end_time: 1751450993348
+entry_point_name: ''
+experiment_id: '459351094025384051'
+lifecycle_stage: active
+run_id: 9a957eea46644c9eb27fa9aa82f53879
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751450987126
+status: 3
+tags: []
+user_id: Minfy

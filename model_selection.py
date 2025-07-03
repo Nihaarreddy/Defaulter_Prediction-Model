@@ -8,8 +8,11 @@ from sklearn.linear_model import LogisticRegression
 from mlflow.tracking import MlflowClient
 import mlflow
 import time
+
+from evidently import Report
+from evidently.presets import DataDriftPreset
  
-def evaluate_models_with_grid_search(X_train, X_test, y_train, y_test):
+def evaluate_models_with_grid_search(X_train, X_test, y_train, y_test,new_df):
     models = {
         "Logistic Regression": {
             "model": LogisticRegression(class_weight='balanced', max_iter=1000, solver='liblinear'),
@@ -67,6 +70,31 @@ def evaluate_models_with_grid_search(X_train, X_test, y_train, y_test):
             print(f" Accuracy: {acc:.4f}, Precision: {prec:.4f}, Recall: {rec:.4f}, F1: {f1:.4f}")
             print(f" Classification Report:\n{classification_report(y_test, preds)}")
             print("=" * 60)
+
+            '''# === Evidently AI Data Drift Report ===
+            # Remove target column if present (for drift, use features only)
+            train_features = X_train.drop(columns=["Defaulter"], errors='ignore')
+            test_features = X_test.copy()
+            if "Defaulter" in test_features.columns:
+                test_features = test_features.drop(columns=["Defaulter"])
+
+            report = Report([DataDriftPreset()])
+            report.run(reference_data=train_features, current_data=test_features)
+            report_path = f"datadrift_{name.replace(' ', '_')}.html"
+            #report.save_html(report_path)
+            with open(report_path, "w") as f:
+                f.write(report.as_html())
+                mlflow.log_artifact(report_path, artifact_path="evidently_reports")
+            # Log Evidently report as MLflow artifact
+            mlflow.log_artifact(report_path, artifact_path="evidently_reports")
+            
+            new_df_features = new_df.copy()
+            report.run(reference_data=train_features,current_data=new_df_features)
+            report_path_new = f"datadrift_{name.replace(' ', '_')}_newdf.html"
+            with open(report_path_new, "w") as f:
+                f.write(report.as_html())
+                mlflow.log_artifact(report_path, artifact_path="evidently_reports")'''
+
  
             if acc > best_score:
                 best_score = acc
